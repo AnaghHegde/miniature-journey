@@ -1,0 +1,93 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 816,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 5010,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 49,
+          "minHeight": 1292,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": []
+        },
+        "layoutOnLoadActions": [],
+        "widgetNames": [
+          "MainContainer"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "publishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 816,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 5010,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 49,
+          "minHeight": 1292,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": []
+        },
+        "layoutOnLoadActions": [],
+        "widgetNames": [
+          "MainContainer"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "policies": [],
+  "userPermissions": [
+    "read:pages",
+    "manage:pages"
+  ],
+  "gitSyncId": "61e6608ca2f25556b3a110ee_61e6608ca2f25556b3a110f0"
+}
