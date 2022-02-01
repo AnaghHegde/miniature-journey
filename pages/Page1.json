@@ -20,7 +20,7 @@
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 51,
-          "minHeight": 1292,
+          "minHeight": 1220,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
@@ -125,11 +125,51 @@
               "leftColumn": 13,
               "buttonVariant": "PRIMARY",
               "key": "ebyu1a99c9"
+            },
+            {
+              "widgetName": "CheckboxGroup1",
+              "displayName": "Checkbox Group",
+              "iconSVG": "/static/media/icon.ecb38479.svg",
+              "topRow": 39,
+              "bottomRow": 45,
+              "parentRowSpace": 10,
+              "type": "CHECKBOX_GROUP_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 30.0625,
+              "leftColumn": 13,
+              "options": [
+                {
+                  "label": "Blue",
+                  "value": "BLUE"
+                },
+                {
+                  "label": "Green",
+                  "value": "GREEN"
+                },
+                {
+                  "label": "Red",
+                  "value": "RED"
+                }
+              ],
+              "isDisabled": false,
+              "key": "ljv1qdu38l",
+              "isRequired": false,
+              "rightColumn": 29,
+              "defaultSelectedValues": "BLUE",
+              "widgetId": "a425hht0fr",
+              "isVisible": true,
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "isInline": true
             }
           ]
         },
         "layoutOnLoadActions": [],
         "widgetNames": [
+          "CheckboxGroup1",
           "ButtonGroup1",
           "MainContainer"
         ],
@@ -164,7 +204,7 @@
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 51,
-          "minHeight": 1292,
+          "minHeight": 1220,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
@@ -269,11 +309,51 @@
               "leftColumn": 13,
               "buttonVariant": "PRIMARY",
               "key": "ebyu1a99c9"
+            },
+            {
+              "widgetName": "CheckboxGroup1",
+              "displayName": "Checkbox Group",
+              "iconSVG": "/static/media/icon.ecb38479.svg",
+              "topRow": 39,
+              "bottomRow": 45,
+              "parentRowSpace": 10,
+              "type": "CHECKBOX_GROUP_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 30.0625,
+              "leftColumn": 13,
+              "options": [
+                {
+                  "label": "Blue",
+                  "value": "BLUE"
+                },
+                {
+                  "label": "Green",
+                  "value": "GREEN"
+                },
+                {
+                  "label": "Red",
+                  "value": "RED"
+                }
+              ],
+              "isDisabled": false,
+              "key": "ljv1qdu38l",
+              "isRequired": false,
+              "rightColumn": 29,
+              "defaultSelectedValues": "BLUE",
+              "widgetId": "a425hht0fr",
+              "isVisible": true,
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "isInline": true
             }
           ]
         },
         "layoutOnLoadActions": [],
         "widgetNames": [
+          "CheckboxGroup1",
           "ButtonGroup1",
           "MainContainer"
         ],
