@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 51,
+          "version": 53,
           "minHeight": 1220,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -169,192 +169,8 @@
         },
         "layoutOnLoadActions": [],
         "widgetNames": [
-          "CheckboxGroup1",
           "ButtonGroup1",
-          "MainContainer"
-        ],
-        "validOnPageLoadActions": true,
-        "id": "Page1",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
-      }
-    ],
-    "userPermissions": [],
-    "policies": []
-  },
-  "publishedPage": {
-    "name": "Page1",
-    "slug": "page1",
-    "layouts": [
-      {
-        "viewMode": false,
-        "dsl": {
-          "widgetName": "MainContainer",
-          "backgroundColor": "none",
-          "rightColumn": 1936,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 5010,
-          "containerStyle": "none",
-          "snapRows": 125,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "version": 51,
-          "minHeight": 1220,
-          "parentColumnSpace": 1,
-          "dynamicTriggerPathList": [],
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "children": [
-            {
-              "widgetName": "ButtonGroup1",
-              "orientation": "horizontal",
-              "rightColumn": 37,
-              "isCanvas": false,
-              "displayName": "Button Group",
-              "iconSVG": "/static/media/icon.d6773218.svg",
-              "widgetId": "1i23d4v5i9",
-              "topRow": 22,
-              "bottomRow": 26,
-              "parentRowSpace": 10,
-              "isVisible": true,
-              "groupButtons": {
-                "groupButton1": {
-                  "label": "Favorite",
-                  "iconName": "heart",
-                  "id": "groupButton1",
-                  "widgetId": "",
-                  "buttonColor": "#03B365",
-                  "buttonType": "SIMPLE",
-                  "placement": "CENTER",
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "index": 0,
-                  "menuItems": {}
-                },
-                "groupButton2": {
-                  "label": "Add",
-                  "iconName": "add",
-                  "id": "groupButton2",
-                  "buttonColor": "#03B365",
-                  "buttonType": "SIMPLE",
-                  "placement": "CENTER",
-                  "widgetId": "",
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "index": 1,
-                  "menuItems": {}
-                },
-                "groupButton3": {
-                  "label": "More",
-                  "iconName": "more",
-                  "id": "groupButton3",
-                  "buttonType": "MENU",
-                  "placement": "CENTER",
-                  "buttonColor": "#03B365",
-                  "widgetId": "",
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "index": 2,
-                  "menuItems": {
-                    "menuItem1": {
-                      "label": "First Option",
-                      "backgroundColor": "#FFFFFF",
-                      "id": "menuItem1",
-                      "widgetId": "",
-                      "onClick": "",
-                      "isVisible": true,
-                      "isDisabled": false,
-                      "index": 0
-                    },
-                    "menuItem2": {
-                      "label": "Second Option",
-                      "backgroundColor": "#FFFFFF",
-                      "id": "menuItem2",
-                      "widgetId": "",
-                      "onClick": "",
-                      "isVisible": true,
-                      "isDisabled": false,
-                      "index": 1
-                    },
-                    "menuItem3": {
-                      "label": "Delete",
-                      "iconName": "trash",
-                      "iconColor": "#FFFFFF",
-                      "iconAlign": "right",
-                      "textColor": "#FFFFFF",
-                      "backgroundColor": "#DD4B34",
-                      "id": "menuItem3",
-                      "widgetId": "",
-                      "onClick": "",
-                      "isVisible": true,
-                      "isDisabled": false,
-                      "index": 2
-                    }
-                  }
-                }
-              },
-              "type": "BUTTON_GROUP_WIDGET",
-              "version": 1,
-              "hideCard": false,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "animateLoading": true,
-              "parentColumnSpace": 30.0625,
-              "leftColumn": 13,
-              "buttonVariant": "PRIMARY",
-              "key": "ebyu1a99c9"
-            },
-            {
-              "widgetName": "CheckboxGroup1",
-              "displayName": "Checkbox Group",
-              "iconSVG": "/static/media/icon.ecb38479.svg",
-              "topRow": 39,
-              "bottomRow": 45,
-              "parentRowSpace": 10,
-              "type": "CHECKBOX_GROUP_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 30.0625,
-              "leftColumn": 13,
-              "options": [
-                {
-                  "label": "Blue",
-                  "value": "BLUE"
-                },
-                {
-                  "label": "Green",
-                  "value": "GREEN"
-                },
-                {
-                  "label": "Red",
-                  "value": "RED"
-                }
-              ],
-              "isDisabled": false,
-              "key": "ljv1qdu38l",
-              "isRequired": false,
-              "rightColumn": 29,
-              "defaultSelectedValues": "BLUE",
-              "widgetId": "a425hht0fr",
-              "isVisible": true,
-              "version": 2,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "isInline": true
-            }
-          ]
-        },
-        "layoutOnLoadActions": [],
-        "widgetNames": [
           "CheckboxGroup1",
-          "ButtonGroup1",
           "MainContainer"
         ],
         "validOnPageLoadActions": true,
@@ -369,9 +185,5 @@
   },
   "deleted": false,
   "policies": [],
-  "userPermissions": [
-    "read:pages",
-    "manage:pages"
-  ],
   "gitSyncId": "61e6608ca2f25556b3a110ee_61e6608ca2f25556b3a110f0"
 }
